@@ -1,8 +1,6 @@
 --- 
-wordpress_id: 105
 layout: post
 title: Mozilla Fun
-wordpress_url: http://www.beyond-syntax.com/?p=105
 ---
 I was just looking at some XML, and saw that the namespace for XUL is
 

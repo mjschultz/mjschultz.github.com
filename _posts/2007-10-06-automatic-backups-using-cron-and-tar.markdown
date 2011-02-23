@@ -1,8 +1,6 @@
 --- 
-wordpress_id: 47
 layout: post
 title: Automatic backups using <code>cron</code> and <code>tar</code>
-wordpress_url: http://www.beyond-syntax.com/?p=47
 ---
 <em>This post is an import from a presentation I did in October of 2007.  Since I've made this presentation, I've stopped using my own script and suggest you use another tool for backups.  I hear <a href="http://www.gnu.org/savannah-checkouts/non-gnu/rdiff-backup/">rdiff-backup</a> is good.  However, I believe this is still a good introduction to <code>bash</code> scripting, <code>cron</code>, and <code>tar</code>.</em>
 

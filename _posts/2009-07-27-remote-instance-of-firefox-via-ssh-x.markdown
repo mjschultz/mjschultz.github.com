@@ -1,8 +1,6 @@
 --- 
-wordpress_id: 95
 layout: post
 title: Remote Instance of Firefox via SSH -X
-wordpress_url: http://www.beyond-syntax.com/?p=95
 ---
 <a title="Read about the Firefox web browser" href="http://www.getfirefox.com/">Firefox</a> is a pretty decent web browser.Â  However, it can be a bit more clever than I want it at times.Â  For example, if I want to SSH into a remote machine and launch a instance of Firefox -- to take on the remote machine's IP address or access localhost -- I would have to close the local instance then launch the remote instance.Â  That is annoying and unacceptable behaviour.
 

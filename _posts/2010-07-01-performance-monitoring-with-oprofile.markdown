@@ -1,8 +1,6 @@
 --- 
-wordpress_id: 162
 layout: post
 title: Performance Monitoring with OProfile
-wordpress_url: http://www.beyond-syntax.com/?p=162
 ---
 <a title="oprofile home page" href="http://oprofile.sourceforge.net/">oprofile</a> is a low overhead, open-source tool that hooks into Linux and can keep track of CPU event monitoring information.  This is a fairly general statement and for this post I'll be using the Intel Penryn microarchitecture, which should have similar event counters to most recent Intel processors.  You can get the canonical list of event counters from Intel's own documentation in Chapter 30, Performance Monitoring, of Volume 3B, System Programming Guide (available from <a title="Intel 64 and IA-32 Architectures Software Developer's Manuals" href="http://www.intel.com/products/processor/manuals/">Intel's site</a>).  Alternatively, the Japan Advanced Institute of Science and Technology have an <a href="http://www.jaist.ac.jp/iscenter-new/mpc/altix/altixdata/opt/intel/vtune/doc/users_guide/mergedProjects/analyzer_ec/mergedProjects/reference_olh/index.htm">interactive version</a> with all the events for most Intel processors.
 

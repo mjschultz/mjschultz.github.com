@@ -1,8 +1,6 @@
 --- 
-wordpress_id: 67
 layout: post
 title: Archiving your Mail
-wordpress_url: http://www.beyond-syntax.com/?p=67
 ---
 For those that don't know, I use <a href="http://www.mutt.org/">mutt</a> for my email needs.  This provides several niceties such as stripping out all the various formatting people like to include in their emails (fonts, graphics, etc), a keyboard driven interface, and, well, it just sucks less that most mail clients.
 

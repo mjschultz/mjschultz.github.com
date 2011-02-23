@@ -1,8 +1,6 @@
 --- 
-wordpress_id: 158
 layout: post
 title: Taking Math Notes on Mac OS X
-wordpress_url: http://mike.xnerd.net/2008/taking-math-notes-on-mac-os-x/
 ---
 I'll begin with a story.  Last week I was taking notes in my mathematics class when the graphite in my mechanical pencil broke.  No big deal.  Well, not quite, it turns out that the pencil had no more graphite left.  So I fall back to my emergency pen with plans to replenish my graphite supply once I get home.
 

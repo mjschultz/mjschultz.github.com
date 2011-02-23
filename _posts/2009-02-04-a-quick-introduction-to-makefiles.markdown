@@ -1,8 +1,6 @@
 --- 
-wordpress_id: 19
 layout: post
 title: A Quick Introduction to Makefiles
-wordpress_url: http://www.beyond-syntax.com/?p=19
 ---
 Today at the <a href="http://acm.mscs.mu.edu/">Marquette Student ACM</a> meeting, I gave a short <a href="http://www.beyond-syntax.com/uploads/2009/02/linux-dev.pdf">presentation</a> (PDF) about development on Linux.Â  Specifically using Makefiles.Â  As promised I have uploaded it to this site and I will give a little more information in this post.
 

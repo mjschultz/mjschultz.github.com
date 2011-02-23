@@ -1,8 +1,6 @@
 --- 
-wordpress_id: 147
 layout: post
 title: The nth Backup Solution
-wordpress_url: http://www.beyond-syntax.com/?p=147
 ---
 In the past, I had developed my own <a href="http://www.beyond-syntax.com/2007/10/automatic-backups-using-cron-and-tar/">backup solution</a>.Â  Unfortunately, over time it didn't work out (mainly from changing systems, moving, using a laptop instead of a desktop, and maintaining it).Â  However, I still like the idea of incremental backups as well as a mirrored version of my files (it saves space and lets me keep a history going back some number of days).
 

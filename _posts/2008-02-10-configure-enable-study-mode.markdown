@@ -1,8 +1,6 @@
 --- 
-wordpress_id: 159
 layout: post
 title: ./configure &#8211;enable-study-mode
-wordpress_url: http://mike.xnerd.net/2008/configure-enable-study-mode/
 ---
 Well, I'm currently running under the assumption that I have a math test tomorrow.  Therefore I should be studying, correct?  I assure you I'll get to the point of studying soon.  First, however, I want to explain to you how I went from reading notes about birth-and-death processes to updating the ports collection on my FreeBSD box (it won't take long).
 
