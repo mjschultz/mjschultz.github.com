@@ -65,11 +65,30 @@ footer p{
 h1{
 	margin:0;
 }
-h2 ,h3{
+h2,h3{
 	margin:0 0 1em;
+}
+#post > h2{
+	margin-bottom:4px;
 }
 pre{
 	overflow:auto;
 	padding:5px;
 	border:1px solid black;
+}
+blockquote{
+	padding:5px 10px;
+	background-color:#eee;
+}
+#articles .title{
+	font-size:120%;
+	padding:5px;
+}
+#articles .content{
+	margin-left:0;
+	padding:0 5px 5px 3em;
+	margin-bottom: 10px;
+}
+#articles .high,#articles .low{
+	border-left:5px solid black;
 }

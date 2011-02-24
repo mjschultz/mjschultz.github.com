@@ -3,7 +3,7 @@ layout: basic
 ---
 <div id="post">
 	<h2><a href="{{ page.url }}">{{ page.title }}</a></h2>
-	<!-- <div class="byline">By {{ page.author }}</div> -->
+	<div class="byline">By {%if latest.author %}{{ latest.author }}{% else %}{{ site.author }}{% endif %}</div>
 	<div class="dateline">Published {{ page.date | date:"%Y-%m-%d" }}</div>
 	<div class="body">
 {{ content }}

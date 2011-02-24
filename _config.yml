@@ -1,4 +1,5 @@
 title: "Beyond Syntax"
+author: "Michael J. Schultz"
 permalink: /:year/:month/:title/
 markdown: rdiscount
 pygments: true
