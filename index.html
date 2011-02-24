@@ -3,7 +3,7 @@ layout: basic
 ---
 <div id="post">
 	{% assign latest = site.posts.first %}
-	<h3><a href="{{ latest.url }}">{{ latest.title }}</a></h3>
+	<h2><a href="{{ latest.url }}">{{ latest.title }}</a></h2>
 	<!-- <div class="byline">By {{ latest.author }}</div> -->
 	<div class="dateline">Published {{ latest.date | date:"%Y-%m-%d" }}</div>
 	<div class="body">

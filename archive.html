@@ -1,0 +1,10 @@
+---
+layout: basic
+---
+<h2>Previous Articles</h2>
+<dl id="articles">
+	{% for post in site.posts %}
+	<dt><a href="{{ post.url }}">{{ post.title }}</a> ({{ post.date | date:"%Y %B %d" }})</dt>
+		<dd>{{ post.content | truncatewords:25 }}</dd>
+	{% endfor %}
+</ul>

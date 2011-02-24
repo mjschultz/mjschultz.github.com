@@ -1,3 +1,3 @@
-# README #
+# Beyond-Syntax #
 
-This is my personal site.  I am using Jekyll.
+This is my personal site. I'm using Jekyll.

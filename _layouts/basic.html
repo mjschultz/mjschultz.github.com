@@ -3,7 +3,15 @@
 	<head>
 		<title>{% if page.title %}{{ page.title | strip_html }} | {% endif %}{{ site.title }} | Michael J. Schultz</title>
 		<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
-		<link rel="stylesheet" href="/css/basic.css" type="text/css" />
+		<link rel="stylesheet" href="/static/basic.css" type="text/css" />
+		<link rel="stylesheet" href="/static/pygments.css" type="text/css" />
+		<script src="http://github.com/javascripts/other/MathJax/MathJax.js" type="text/javascript"> 
+			MathJax.OutputJax.fontDir = "http://github.com/assets/MathJax/fonts" 
+			MathJax.Hub.Config({ 
+				extensions: ["tex2jax.js","TeX/AMSmath.js","TeX/AMSsymbols.js"], 
+				jax: ["input/TeX", "output/HTML-CSS"] 
+			}) 
+		</script>
 		<script type="text/javascript">
 			var _gaq = _gaq || [];
 			_gaq.push(['_setAccount', 'UA-523287-2']);
@@ -54,7 +62,7 @@
 			</ul>
 			<h3>Follows</h3>
 			<ul>
-				<li><a href="https://github.com/the_mjschultz">GitHub</a></li>
+				<li><a href="https://github.com/mjschultz">GitHub</a></li>
 				<li><a href="http://twitter.com/the_mjschultz">Twitter</a></li>
 				<li><a href="http://facebook.com/mjschultz">Facebook</a></li>
 				<li><a href="http://stackoverflow.com/users/288349">Stack Overflow</a></li>
