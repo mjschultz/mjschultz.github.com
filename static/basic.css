@@ -51,6 +51,12 @@ nav li{
 	font-size:75%;
 	margin-bottom:4px;
 }
+#sidebar img{
+	margin:0;
+	padding:0;
+	padding-left:4px;
+	border:0;
+}
 .center{
 	margin:0 auto;
 	text-align:center;
