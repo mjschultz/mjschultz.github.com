@@ -1,21 +1,13 @@
 ---
 layout: basic
 ---
-<h1>Latest</h1>
-{% assign latest = site.posts.first %}
 <div id="post">
-	<h2><a href="{{ latest.url }}">{{ latest.title }}</a></h2>
+	{% assign latest = site.posts.first %}
+	<h3><a href="{{ latest.url }}">{{ latest.title }}</a></h3>
 	<!-- <div class="byline">By {{ latest.author }}</div> -->
 	<div class="dateline">Published {{ latest.date | date:"%Y-%m-%d" }}</div>
 	<div class="body">
-		{{ latest.content | truncatewords:100 }}
-		<div class="more"><a href="{{ latest.url }}">Read More</a></div>
+		{{ latest.content }}
 	</div>
 </div>
 
-<h1>Archive</h1>
-<ul id="archive">
-	{% for post in site.posts %}
-	<li><a href="{{ post.url }}">{{ post.title }}</a> (<abbr>{{ post.date | date:"%Y-%m-%d" }}</abbr>)</li>
-	{% endfor %}
-</ul>
