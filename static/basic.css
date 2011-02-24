@@ -47,6 +47,10 @@ nav li{
 #sidebar p, #sidebar ul{
 	font-size:80%;
 }
+#sidebar address{
+	font-size:75%;
+	margin-bottom:4px;
+}
 .center{
 	margin:0 auto;
 	text-align:center;
