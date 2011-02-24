@@ -4,4 +4,4 @@ all:
 	$(JEKYLL)
 
 server:
-	$(JEKYLL) --server
+	$(JEKYLL) --server --auto
