@@ -6,7 +6,7 @@ layout: basic
 	{% for post in site.posts %}
 	
 	<dt class="title {% cycle 'title':'high','low' %}"><a href="{{ post.url }}">{{ post.title }}</a> from {{ post.date | date:"%B %d, %Y" }}</dt>
-		<dd class="content {% cycle 'content':'high','low' %}">{{ post.content | strip_html | truncatewords:25 }} (<a href="{{ latest.url }}#disqus_thread" data-disqus-identifier="{{ latest.id }}">Comments</a>)</dd>
+		<dd class="content {% cycle 'content':'high','low' %}">{{ post.content | strip_html | truncatewords:25 }} (<a href="{{ post.url }}#disqus_thread" data-disqus-identifier="{{ post.id }}">Comments</a>)</dd>
 	{% endfor %}
 </ul>
 <script type="text/javascript">
