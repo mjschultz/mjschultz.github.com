@@ -5,7 +5,16 @@ layout: basic
 <dl id="articles">
 	{% for post in site.posts %}
 	
-	<dt class="title {% cycle 'title':'high','low' %}"><a href="{{ post.url }}">{{ post.title }}</a> from {{ post.date | date:"%Y %B %d" }}</dt>
-		<dd class="content {% cycle 'content':'high','low' %}">{{ post.content | strip_html | truncatewords:25 }}</dd>
+	<dt class="title {% cycle 'title':'high','low' %}"><a href="{{ post.url }}">{{ post.title }}</a> from {{ post.date | date:"%B %d, %Y" }}</dt>
+		<dd class="content {% cycle 'content':'high','low' %}">{{ post.content | strip_html | truncatewords:25 }} (<a href="{{ latest.url }}#disqus_thread" data-disqus-identifier="{{ latest.id }}">Comments</a>)</dd>
 	{% endfor %}
 </ul>
+<script type="text/javascript">
+    var disqus_shortname = 'beyond-syntax';
+    (function () {
+        var s = document.createElement('script'); s.async = true;
+        s.type = 'text/javascript';
+        s.src = 'http://' + disqus_shortname + '.disqus.com/count.js';
+        (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
+    }());
+</script>

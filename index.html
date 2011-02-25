@@ -5,9 +5,18 @@ layout: basic
 	{% assign latest = site.posts.first %}
 	<h2><a href="{{ latest.url }}">{{ latest.title }}</a></h2>
 	<div class="byline">By {%if latest.author %}{{ latest.author }}{% else %}{{ site.author }}{% endif %}</div>
-	<div class="dateline">Published {{ latest.date | date:"%Y-%m-%d" }}</div>
+	<div class="dateline">Published {{ latest.date | date:"%A, %B %d, %Y" }}</div>
+	<div class="comments"><a href="{{ latest.url }}#disqus_thread" data-disqus-identifier="{{ latest.id }}">Comments</a></div>
 	<div class="body">
 		{{ latest.content }}
 	</div>
 </div>
-
+<script type="text/javascript">
+    var disqus_shortname = 'beyond-syntax';
+    (function () {
+        var s = document.createElement('script'); s.async = true;
+        s.type = 'text/javascript';
+        s.src = 'http://' + disqus_shortname + '.disqus.com/count.js';
+        (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
+    }());
+</script>
