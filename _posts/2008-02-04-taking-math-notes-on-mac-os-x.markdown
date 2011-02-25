@@ -17,11 +17,11 @@ reach into my pocket to grab my pencil and realize that I never filled it
 up.  So I think to myself: Should I take notes with my pen or try to go for
 it with the computer.  Being a computer scientist I choose the computer.
 
-The professor begins writing on the chalkboard. $\lambda p_0 =\mu p_1$.
-Great.  Doesn't that just flow off the fingers.  I frantically start trying
-the various Alt/Alt+Shift key strokes OS X features.  No lambda.  Alright,
-maybe someone has already figured this out for me.  Nope.  The common
-suggestions are
+The professor begins writing on the chalkboard. ![\lambda p_0 =\mu
+p_1](/static/latex/2008-02-math-notes.png).  Great.  Doesn't that just flow
+off the fingers.  I frantically start trying the various Alt/Alt+Shift key
+strokes OS X features.  No lambda.  Alright, maybe someone has already
+figured this out for me.  Nope.  The common suggestions are
 [OmniOutliner](http://www.omnigroup.com/applications/omnioutliner/) and
 [NoteTaker](http://www.aquaminds.com/).  Neither of which flow as naturally
 as I wanted.  Luckily for me I know LaTeX, so I ended up using writing the
