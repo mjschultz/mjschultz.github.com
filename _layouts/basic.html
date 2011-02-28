@@ -60,7 +60,7 @@
 				<li><a href="http://stackoverflow.com/users/288349">Stack Overflow</a></li>
 				<li><a href="http://reddit.com/user/mjschultz">Reddit</a></li>
 			</ul>
-			{% unless page.exclude contains 'ads' %}
+			{% if page.ad_free == 'true' %}
 			<div class="center">
 				<script type="text/javascript"><!--
 					google_ad_client = "ca-pub-1780644939403817";
@@ -73,7 +73,7 @@
 				<script type="text/javascript" src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
 				</script>
 			</div>
-			{% endunless %}
+			{% endif %}
 		</div>
 		<footer>
 			<p class="center">&copy; <a href="http://www.beyond-syntax.com/">Michael J. Schultz</a> under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/">Creative Commons Attribution-ShareAlike 3.0 Unported License</a>.</p>
