@@ -5,3 +5,6 @@ all:
 
 server:
 	$(JEKYLL) --server --auto
+
+clean:
+	rm -rf _site/*
