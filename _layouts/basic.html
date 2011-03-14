@@ -3,6 +3,9 @@
 	<head>
 		<title>{% if page.title %}{{ page.title | strip_html }} | {% endif %}{{ site.title }} | Michael J. Schultz</title>
 		<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+		<meta name="author" content="Michael J. Schultz" />
+		<meta name="description" content="{% if page.description %}{{ page.description }}{% else %}A technology-oriented blog connecting thought to code and attempting to bridge the gap between adademia and practice.{% endif %}" />
+		<meta name="keywords" content="programming,coding,technology,academia,practice{% if page.keywords %},{{ page.keywords }}{% endif %}" />
 		<link rel="stylesheet" href="/static/basic.css" type="text/css" />
 		<link rel="stylesheet" href="/static/pygments.css" type="text/css" />
 		<script type="text/javascript">
