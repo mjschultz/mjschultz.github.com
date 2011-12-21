@@ -76,7 +76,7 @@ file](http://www.wikipedia.org/wiki/Zip \(file format\)) is the most likely cand
 cross-platform password protection, but how is that block of text a Zip file?
 Looking through the Wikipedia page shows that `PK` is the commonly the
 first two bytes of a Zip file, it just so happens that that translates to
-`504b` in [hexidecimal](http://www.wikipedia.org/wiki/Hexidecimal).
+`504b` in [hexadecimal](http://www.wikipedia.org/wiki/Hexadecimal).
 Perhaps if I strip all the non-hex characters from the text block it will
 be a Zip file.
 This time I'll just use the Unix
