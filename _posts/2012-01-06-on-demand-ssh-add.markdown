@@ -18,8 +18,8 @@ boot your computer `ssh-agent` knows nothing and doesn't do much.
 The real magic happens when you tell `ssh-agent` about your SSH keys.  In
 the past I've done this in one of two ways:
 
-# Use the `ssh-add` command to add a key to the agent.
-# Have the desktop environment ask for your passphrase when it loads.
+1. Use the `ssh-add` command to add a key to the agent.
+2. Have the desktop environment ask for your passphrase when it loads.
 
 Since these have the same result of adding your passphrase to `ssh-agent`
 it simply becomes a matter of user experience.  Neither experience I really
@@ -47,10 +47,10 @@ recognizes that and prompts me for authentication.  At this point I'm
 authenticated and any future SSH attempts will re-use that authentication.
 That is to say:
 
-# OS X automatically adds the authentication to the ssh agent*
-# I'm not bothered with authentication until I need it.
+1. OS X automatically adds the authentication to the ssh agent*
+2. I'm not bothered with authentication until I need it.
 
-* This isn't quite how OS X actually does it, the passphrase is stored in a
+\* This isn't quite how OS X actually does it, the passphrase is stored in a
   keychain.  The keychain gets unlocked when I need it and serves the
   passphrase to the ssh command.
 
@@ -77,8 +77,8 @@ not run and you can try again.
 
 Of course, this makes a few assumptions:
 
-# Either your agent is empty or it has all useful keys in it.
-# You're going to `ssh` before you `scp` or use any other command.
+1. Either your agent is empty or it has all useful keys in it.
+2. You're going to `ssh` before you `scp` or use any other command.
 
 In my case both assumptions a valid.  I don't have any keys that `ssh-add`
 doesn't find automatically (even if I did, I would still want to manually
