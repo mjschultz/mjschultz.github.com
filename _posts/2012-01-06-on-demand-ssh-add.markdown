@@ -85,6 +85,10 @@ doesn't find automatically (even if I did, I would still want to manually
 add them in them to the agent--in which case I am no worse off than
 before).  In the second case, I almost always ssh to a host before moving
 files around or to, just so I can make sure I have the locations correct.
+(Of course, as I submit this post `git` asks for my passphrase because I
+haven't authenticated yet. The quick answer is to alias all commands that
+need ssh key authentication with the stuff before `&&` and replace `ssh`
+with the desired command.)
 
 This also shouldn't hurt security any more than another solution.  At the
 end of the day, I'm disappointed that I didn't do this a long time ago.
