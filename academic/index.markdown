@@ -17,6 +17,8 @@ Brylow](http://www.mscs.mu.edu/~brylow/), as a research assistant for the
 received my Master of Science in Computer Science.
 If you are interested you can view a listing of [all the courses](courses)
 I have taken through my academic career.
+You can also download my [curriculum vit&aelig;](static/vitae.pdf) as a
+PDF, though it should largely mirror the contents of this page.
 
 ### Teaching ###
 
