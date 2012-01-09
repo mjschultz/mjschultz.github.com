@@ -1,0 +1,12 @@
+                     Notes from discussions about
+    ``A Passive Network Appliance for Real-Time Network Monitoring''
+
+Page 241 (3), 2nd column: "our software must first decode the [...] headers
+to extract the flow 5-tuple". Later examples show a 6-tuple, adding the
+network-protocol, the software _extracts_ a 6-tuple, but _hashes_ on the
+5-tuple described.
+
+Page 242 (4), Footnote 1: This number was derived using a packet trace from
+a previous version of the PNA kernel module in which there were only
+131,072 entries.  In the updated (> 8 million entries) version, the probe
+limit could be reduced even further without significant loss.

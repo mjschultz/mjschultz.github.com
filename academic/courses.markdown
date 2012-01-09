@@ -13,9 +13,9 @@ In theory these are the areas I should have some amount of knowledge in.
 
 #### Washington University in Saint Louis ####
 
-This is a current listing of courses I have taken from Washington
-University in Saint Louis in partial fulfilment of a Ph.D. in Computer
-Science.
+This is a current listing of courses I have taken from [Washington
+University in Saint Louis](http://www.wustl.edu/) in partial fulfilment of
+a Ph.D. in Computer Science.
 
 * Computer Systems Analysis
 * Network Security
@@ -30,8 +30,9 @@ Science.
 
 #### Marquette University ####
 
-This is a listing of courses I took from Marquette University in partial
-fulfilment of a Master's of Science in Computer Science.
+This is a listing of courses I took from [Marquette
+University](http://www.mu.edu/) in partial fulfilment of a Master's of
+Science in Computer Science.
 
 * Independent Study in Embedded Systems
 * Independent Study in Parallel Algorithms
