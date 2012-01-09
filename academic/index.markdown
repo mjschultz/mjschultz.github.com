@@ -1,9 +1,9 @@
 ---
 layout: basic
-title: Academia
+title: Academic
 ad\_free: true
 ---
-## Academia ##
+## Academic ##
 
 I am currently working towards a *philosophi&aelig; doctor* in [Computer
 Science](http://www.cse.  wustl.edu/) at [Washington University in Saint
