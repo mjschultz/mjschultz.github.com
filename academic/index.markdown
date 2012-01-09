@@ -1,7 +1,7 @@
 ---
 layout: basic
 title: Academic
-ad\_free: true
+adfree: true
 ---
 ## Academic ##
 
@@ -15,8 +15,18 @@ After which I took an opportunity to work with [Dr. Dennis
 Brylow](http://www.mscs.mu.edu/~brylow/), as a research assistant for the
 [Systems Laboratory](http://xinu.mscs.mu.edu/), during which time I
 received my Master of Science in Computer Science.
+If you are interested you can view a listing of [all the courses](courses)
+I have taken through my academic career.
 
 ### Teaching ###
+
+My office is located in [Bryan
+Hall](http://eit.engineering.wustl.edu/map/map.asp), [Room
+419](http://eit.engineering.wustl.edu/map/Bryan/floor4.gif).
+I will have dedicated office hours Tuesday from 3pm--4pm and Friday
+3pm--4pm this semester.
+Otherwise, feel free to stop by to see if I'm around or send an email if
+you wish to meet (though I make no guarantees on availabilty).
     
 * Assistant, Fall 2010, [CSE 361S: Introduction to Systems
 Software](http://arl.wustl.edu/~pcrowley/cse/361/index.html)
@@ -38,9 +48,9 @@ of malicious content.
 
 * Michael J. Schultz, Ben Wun, and Patrick Crowley. ``A Passive Network
   Appliance for Real-Time Network Monitoring''
-  ([pre-print](files/ancs2011-pna.pdf),
-  [presentation](files/ancs2011-pna_present.pdf),
-  [notes](files/ancs2011-pna.txt)).  In the *ACM/IEEE Symposium on
+  ([pre-print](static/ancs2011-pna.pdf),
+  [presentation](static/ancs2011-pna_present.pdf),
+  [notes](static/ancs2011-pna.txt)).  In the *ACM/IEEE Symposium on
   Architectures for Networking and Communications Systems*, Brooklyn, New
   York, October 2011.
 
@@ -68,12 +78,12 @@ I believe this is useful as pedagogical tool.
 As such, one of the constant goals is to keep Xinu easy to understand.
 
 * Michael J. Schultz. [Using Software Transactional Memory in
-  Interrupt-Driven Systems](files/thesis-2009.pdf)
-  ([presentation](files/thesis-present.pdf)).  Master's Thesis, Marquette
+  Interrupt-Driven Systems](static/thesis-2009.pdf)
+  ([presentation](static/thesis-present.pdf)).  Master's Thesis, Marquette
   University, August 2009.
 * Michael J. Schultz and Dennis Brylow.  ``Adding Software Transactions to
-  the Kernel'' ([abstract](files/lctes2008-schultz.pdf),
-  [poster](files/lctes2008-schultz_poster.pdf)). Student Poster
+  the Kernel'' ([abstract](static/lctes2008-schultz.pdf),
+  [poster](static/lctes2008-schultz_poster.pdf)). Student Poster
   Presentation at the *Conference on Languages, Compilers, and Tools for
   Embedded Systems*, Tuscon, Arizona, June 2008.
 
