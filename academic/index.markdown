@@ -27,9 +27,11 @@ I will have dedicated office hours Tuesday from 3pm-4pm and Friday 3pm-4pm
 this semester.
 Otherwise, feel free to stop by to see if I'm around or send an email if
 you wish to meet (though I make no guarantees on availability).
-    
+
+* Assistant, Spring 2012, [CSE 561M: Advanced Computer Systems
+  Architecture](http://www.arl.wustl.edu/~pcrowley/cse/561/)
 * Assistant, Fall 2010, [CSE 361S: Introduction to Systems
-Software](http://arl.wustl.edu/~pcrowley/cse/361/index.html)
+Software](http://arl.wustl.edu/~pcrowley/cse/361/)
 
 ### Research ###
 

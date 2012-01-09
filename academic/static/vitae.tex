@@ -1,0 +1,195 @@
+% Academic curriculum vitae
+% Maintained by Michael Schultz
+
+\documentclass[12pt]{article}
+
+\usepackage[margin=1in]{geometry}
+
+\usepackage{enumitem}
+\setitemize{itemsep=0pt,parsep=1pt}
+
+\usepackage{multirow}
+\usepackage{url}
+\usepackage{fancyhdr}
+\pagestyle{fancyplain}
+
+% Special style for plain pages
+\fancypagestyle{plain}{
+	\fancyhf{}
+	\fancyhead[R]{\today}
+	\fancyfoot[R]{\thepage}
+}
+
+% Style for other pages
+\fancyhf{}
+\fancyhead[L]{Michael J. Schultz}
+\fancyhead[R]{\today}
+\fancyfoot[R]{\thepage}
+
+\newcommand{\spantab}[3]{\multicolumn{#1}{@{\extracolsep{\fill}}#2}{#3}}
+
+\begin{document}
+\thispagestyle{plain}
+\begin{center}
+	{\Large {\bf Michael J. Schultz}} \\
+	Curriculum vitae
+\end{center}
+
+\noindent\begin{tabular*}{\textwidth}{@{\extracolsep{\fill}}llll}
+	Address:     & 5592 Waterman Blvd., Unit \#B3
+	                   & Birth date:  & February 3, 1985    \\
+	             & Saint Louis, MO 63112-1867, USA
+	                   & Birth place: & Arlington Heights, IL, USA \\
+	Email: & mjschultz@gmail.com
+	                   & Phone: & +1 630 399 2814                        \\
+    Web: &
+    \multicolumn{3}{l}{\url{http://www.beyond-syntax.com/academic/}} \\
+\end{tabular*}
+
+\section*{Research Interests}
+
+{\bf Networking}: network monitoring; high-speed networking.
+{\bf Systems}: transactional memory; concurrency; scalable computing; virtual
+machines.
+{\bf Programming Languages}: compilers and optimization; correctness.
+{\bf Software Engineering}: design patterns; static program analysis.
+
+\section*{Educational Background}
+
+\begin{tabular*}{\textwidth}{@{\extracolsep{\fill}}lr}
+	{\bf Washington University in Saint Louis} & Saint Louis, Missouri \\
+	\spantab{2}{l}{Doctor of Philosophy, {\em Computer Science},
+                   Fall 2009--present.}   \\
+	\spantab{2}{l}{Advisor: Patrick Crowley}                         \\
+	\\
+	{\bf Marquette University} & Milwaukee, Wisconsin              \\
+	\spantab{2}{l}{Master of Science, {\em Computer Science},
+	               August 2009.}                             \\
+	\spantab{2}{l}{Thesis topic: {\em Using Software Transactional 
+	               Memory in Interrupt-Driven Systems.}}           \\
+	\spantab{2}{l}{Advisor: Dennis Brylow}                         \\
+	\\
+	{\bf Marquette University} & Milwaukee, Wisconsin              \\
+	\spantab{2}{l}{Bachelor of Science, {\em Computer Science} and
+		           {\em Mathematics}, May 2007.}                   \\
+	\spantab{2}{l}{Major GPA: 3.72/4.00; Overall GPA: 3.33/4.00.}  \\
+\end{tabular*}
+
+\section*{Work History}
+
+\begin{tabular*}{\textwidth}{@{\extracolsep{\fill}}lr}
+	{\bf Research Assistant}     & August 2009 -- present          \\
+    \spantab{2}{l}{Department of Computer Science and Engineering,
+                   Washington University in Saint Louis}           \\
+	\spantab{2}{l}{Applied Research Laboratory}                    \\
+	\\
+	{\bf Research Assistant}     & May 2007 -- August 2009         \\
+	\spantab{2}{l}{Department of Mathematics, Statistics, 
+	               and Computer Science, Marquette University}     \\
+	\spantab{2}{l}{Systems Laboratory}                             \\
+	\\
+	{\bf Developer and Director} & September 2005 -- May 2007      \\
+	\spantab{2}{l}{College of Communication, Marquette University} \\
+	\spantab{2}{l}{Student Media Interactive}                      \\
+\end{tabular*}
+
+\section*{Activities}
+
+\subsection*{Papers}
+\begin{itemize}
+    \item {\bf Michael J. Schultz}, Ben Wun, and Patrick Crowley. {\em A
+    Passive Network Appliance for Real-Time Network Monitoring.} In the
+    {\em ACM/IEEE Symposium on Architectures for Networking and
+    Communications Systems}, Brooklyn, New York, October 2011.
+\end{itemize}
+
+\subsection*{Thesis}
+\begin{itemize}
+    \item {\bf Michael J. Schultz}. {\em Using Software Transactional Memory in
+    Interrupt-Driven Systems.}  Master's Thesis, Marquette University, August
+    2009.
+\end{itemize}
+
+\subsection*{Posters}
+\begin{itemize}
+    \item Adam T. Koehler, {\bf Michael J. Schultz}, and Dennis Brylow. Forward
+    Thinking Poster Session 2008: {\em Solid State Persistent Memory Devices for
+    Embedded Xinu}; Milwaukee, WI.
+    \item {\bf Michael J. Schultz} and Dennis Brylow.  LCTES 2008 Student Poster
+    Session: {\em Adding Software Transactions to the Kernel}; Tucson, AZ.
+    \item Aaron Gember, Paul Hinze, {\bf Michael J. Schultz}, and Dennis Brylow.
+    Forward Thinking Poster Session 2007: {\em When Machines have
+    Deadlines---Building a Real-Time Embedded Operating System}; Milwaukee, WI.
+\end{itemize}
+
+\subsection*{Projects}
+\begin{itemize}
+	\item Embedded Xinu 1.0---released July 2007; ANSI C compliant release
+	of the Xinu operating system targeting the MIPS platform; updated to
+	v1.5 September 2008 with inclusion of an Ethernet driver and extensive
+	code cleanup.
+	\item Microwulf---built Fall 2008; portable four-node beowulf cluster.
+\end{itemize}
+
+\subsection*{Committees}
+\begin{itemize}
+	\item MSCS Undergraduate Committee---2006--2007 academic year; advocate
+	for MSCS undergraduate interests.
+	\item Student Media Board---2006--2007 academic year; helped begin
+	convergence of student media outlets (paper, television, radio, and
+	journal); assisted in hiring of managers for the next academic year.
+\end{itemize}
+
+\subsection*{Extra-Curricular}
+\begin{itemize}
+	\item ACM Student Chapter---{\em secretary} 2008--present
+	\item Marquette University Linux Users Group---{\em co-founder} 2006;
+	{\em president} 2006--2007; {\em system administrator} 2007--present.
+\end{itemize}
+
+\section*{Conferences Attended}
+
+\begin{description}
+    \item[ANCS 2011] ACM/IEEE Symposium on Architectures for Networking and
+    Communications Systems; Brooklyn, NY, October 2011.
+
+    \item[ANCS 2010] ACM/IEEE Symposium on Architectures for Networking and
+    Communications Systems; La Jolla, CA, October 2010.
+
+    \item[Strangeloop 2010] Strangeloop 2010; Saint Louis, MO, October
+    2010.
+
+	\item[SIGCSE 2010] ACM Technical Symposium in Computer Science
+	Education; Milwaukee, WI, March 2010.
+
+	\item[SIGCSE 2009] ACM Technical Symposium in Computer Science
+	Education; Chattanooga, TN, March 2009.
+
+	\item[EMSOFT 2008] International Conference on Embedded Systems;
+	co-located with {\bf CASES} International Conference on Compilers,
+	Architecture, and Synthesis for Embedded Systems; co-located with {\bf
+	CODES+ISSS} International Conference on Hardware-Software Codesign and
+	System Synthesis; Atlanta, GA, October 2008.
+
+	\item[PLDI 2008] ACM SIGPLAN Conference on Programming Language Design
+	and Implementation; co-located with {\bf LCTES 2008} ACM SIGPLAN/SIGBED
+	Conference on Languages, Compilers, and Tools for Embedded Systems;
+	Tucson, AZ, June 2008.
+
+	\item[SIGCSE 2008] ACM Technical Symposium in Computer Science
+	Education; Portland, OR, March 2008.
+\end{description}
+
+\section*{Professional and Scholarly Societies}
+\begin{itemize}
+	\item Association for Computing Machinery (ACM)
+	\begin{itemize}
+		\item SIGOPS: Special Interest Group on Operating Systems
+	\end{itemize}
+	\item Institute of Electrical and Electronic Engineers (IEEE) -
+	Computer Society
+	\item Upsilon Pi Epsilon - Honor Society in Computer Science
+	\item Pi Mu Epsilon - Honor Society in Mathematics
+\end{itemize}
+
+\end{document}
