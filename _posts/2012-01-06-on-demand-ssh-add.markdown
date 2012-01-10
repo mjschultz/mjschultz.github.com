@@ -8,7 +8,7 @@ For many years I have been bothered by the options for using the ssh-agent
 on Linux.  I finally (hope) I've reached a reasonable solution for adding
 my keys to the ssh-agent.
 
-# Background #
+## Background ##
 
 As many \*nix users know: SSH keys with passphrases are the way to go when
 jumping from system to system.  This is the case because on your main
@@ -39,7 +39,7 @@ terrible experience, but it's a bit annoying when I'm just sitting down and
 don't want to type a long passphrase just to check my email. (I could close
 it, but then I'm back in the frustrating first case.)
 
-# What is a geek to do? #
+## What is a geek to do? ##
 
 Honestly, the OS X way of doing this isn't too bad.  If I haven't
 authenticated myself to the computer when I ssh the first time OS X
