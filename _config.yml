@@ -1,6 +1,6 @@
 title: "Beyond Syntax"
 author: "Michael J. Schultz"
 url: http://beyond-syntax.com
-permalink: /:year/:month/:title/
+permalink: /blog/:year/:month/:title/
 markdown: rdiscount
 pygments: true

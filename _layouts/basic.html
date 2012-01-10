@@ -24,14 +24,13 @@
 	<body>
 		<header>
 		<h1><a href="/">{{ site.title }}</a></h1>
-			<h2>Looking Beyond Syntactical Meaning.</h2>
+			<h2>Looking beyond syntactical meaning</h2>
 		</header>
 		<nav>
 			<ul>
-				<li><a href="/academic">Academic</a></li>
-				<li><a href="/">Blog</a></li>
-				<li><a href="/new-zealand/">New Zealand</a></li>
-				<li><a href="http://photos.theschultzfam.com/">Photos</a></li>
+				<li><a href="/academic/">Academic</a></li>
+				<li><a href="/blog/">Blog</a></li>
+				<li><a href="https://picasaweb.google.com/mjschultz">Photos</a></li>
 			</ul>
 		</nav>
 		<div id="content">
@@ -47,7 +46,7 @@
 				{% for post in site.posts limit:10 %}
 				<li><a href="{{ post.url }}">{{ post.title }}</a></li>
 				{% endfor %}
-				<li><a href="/archive.html">Older...</a></li>
+				<li><a href="/blog/archive.html">Older...</a></li>
 			</ul>
 			<h3>Fellows</h3>
 			<ul>
