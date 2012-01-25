@@ -1,0 +1,22 @@
+<html>
+	<head>
+		<title>Slayer: The Microwulf of Marquette</title>
+	</head>
+	<body>
+		<h1>Slayer: Some notes on efficiency</h1>
+
+		<h2>Computational Efficiency</h2>
+		<p>Computational efficiency is calculated by dividing measured performance (R<sub>max</sub>) by peak performance (R<sub>peak</sub>).</p>
+		<p>
+			For slayer, we can estimate peak performance by multiplying the number of nodes, cores per node, floating point units per core, and clock speed together.  This gives: 
+			<pre>R<sub>peak</sub> = 4 x 4 x 2 x 2.2 = 70.4</pre>
+			Given our peak performance calculation, we have computational
+			efficiency of:
+			<pre>eff<sub>comp</sub> = 55.76 / 70.4 = 0.7920 ~= 79%</pre>
+		</p>
+
+		<h2>Cost Efficiency</h2>
+		<p>Like the <a href="http://www.calvin.edu/~adams/research/microwulf/">Microwulf</a> we know how much we payed for our cluster computer and can calculate the price per performance (GFLOP).  The <a href="manifest.html">cost</a> of slayer was $1953.05 and has a measured <a href="performance.html">performance</a> of 55.76 GFLOPS, giving Slayer a price/performance ratio of <strong>$35.03/GFLOP</strong> (or less than $0.04/MFLOP)!</p>
+
+	</body>
+</html>
