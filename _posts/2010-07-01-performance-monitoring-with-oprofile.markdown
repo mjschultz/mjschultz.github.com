@@ -221,34 +221,34 @@ $ opreport session:bombard cpu:7
 CPU: Core 2, speed 2494.04 MHz (estimated)
 Counted CPU_CLK_UNHALTED events (Clock cycles when not halted) with a unit mask of 0x00 (Unhalted core cycles) count 10000
 CPU_CLK_UNHALT...|
-	samples|      %|
+  samples|      %|
 ------------------
-	737746 86.6169 nf_ses_watch
-	88183 10.3533 vmlinux
-	16810  1.9736 e1000e
-		3680  0.4321 oprofiled
-		2594  0.3046 oprofile
-		1578  0.1853 libc-2.5.so
-		900  0.1057 bash
-		78  0.0092 ld-2.5.so
-		52  0.0061 ophelp
-		26  0.0031 libavahi-common.so.3.4.3
-		22  0.0026 libavahi-core.so.4.0.5
-		13  0.0015 gawk
-		9  0.0011 libcrypto.so.0.9.8b
-		9  0.0011 libpython2.4.so.1.0
-		9  0.0011 sshd
-		8 9.4e-04 bnx2
-		4 4.7e-04 libpthread-2.5.so
-		3 3.5e-04 grep
-		2 2.3e-04 ipv6
-		2 2.3e-04 auditd
-		1 1.2e-04 cat
-		1 1.2e-04 libdl-2.5.so
-		1 1.2e-04 libm-2.5.so
-		1 1.2e-04 libpcre.so.0.0.1
-		1 1.2e-04 dirname
-		1 1.2e-04 automount
+   737746 86.6169 nf_ses_watch
+    88183 10.3533 vmlinux
+    16810  1.9736 e1000e
+     3680  0.4321 oprofiled
+     2594  0.3046 oprofile
+     1578  0.1853 libc-2.5.so
+      900  0.1057 bash
+       78  0.0092 ld-2.5.so
+       52  0.0061 ophelp
+       26  0.0031 libavahi-common.so.3.4.3
+       22  0.0026 libavahi-core.so.4.0.5
+       13  0.0015 gawk
+        9  0.0011 libcrypto.so.0.9.8b
+        9  0.0011 libpython2.4.so.1.0
+        9  0.0011 sshd
+        8 9.4e-04 bnx2
+        4 4.7e-04 libpthread-2.5.so
+        3 3.5e-04 grep
+        2 2.3e-04 ipv6
+        2 2.3e-04 auditd
+        1 1.2e-04 cat
+        1 1.2e-04 libdl-2.5.so
+        1 1.2e-04 libm-2.5.so
+        1 1.2e-04 libpcre.so.0.0.1
+        1 1.2e-04 dirname
+        1 1.2e-04 automount
 {% endhighlight %}
 
 Wow!  Over 86% of the time we were executing code in the `nf_ses_watch`
