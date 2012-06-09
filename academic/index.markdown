@@ -50,6 +50,11 @@ Appliance'' (PNA) that allows network administrators to closely monitor
 network traffic while providing line-speed (or near line-speed) detection
 of malicious content.
 
+* Michael J. Schultz and Patrick Crowley. ``Performance Analysis of Packet
+  Capture Methods in a 10 Gbps Virtualized Environment.''
+  ([pre-print](static/icccn2012-kvm.pdf)).  In the *21st International
+  Conference on Computer Communications and Networks*, Munich, Germany,
+  July/August 2012.
 * Michael J. Schultz, Ben Wun, and Patrick Crowley. [A Passive Network
   Appliance for Real-Time Network
   Monitoring](http://dx.doi.org/10.1109/ANCS.2011.46)
