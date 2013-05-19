@@ -188,7 +188,7 @@ replacements and retired (1,834,500)(10,000) = 18,345,000,000 instructions.
 Egads!  Is that good or bad?  Well, now we can throw in our ratio
 calculation for the L1 data cache miss:
 
-->![L1_{miss}=\frac{L1D\_REPL}{INST\_RETIRED}=\frac{305283}{834500}=\sim
+->![L1_{miss}=\frac{L1D\_REPL}{INST\_RETIRED}=\frac{305283}{1834500}=\sim
 16.6%](/static/img/2010-07-miss_ratio.png)<-
 
 That seems pretty bad to me!  We can also see that the Linux kernel
