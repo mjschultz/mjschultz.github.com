@@ -5,8 +5,8 @@ adfree: true
 ---
 ## Academic ##
 
-I am currently working towards a *philosophi&aelig; doctor* in [Computer
-Science](http://www.cse.  wustl.edu/) at [Washington University in Saint
+I am working towards a *philosophi&aelig; doctor* in [Computer
+Science](http://www.cse.wustl.edu/) at [Washington University in Saint
 Louis](http://www.wustl.edu/) under the guidance of [Dr. Patrick
 Crowley](http://arl.wustl.edu/~pcrowley/).
 Previously, I received my Bachelor of Science in Mathematics and Computer
